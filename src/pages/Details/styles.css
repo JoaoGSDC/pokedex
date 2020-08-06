@@ -58,3 +58,29 @@
     background: linear-gradient(90deg, #6aa372, #314228);
     margin-left: 145px;
 }
+
+.container-data {
+    display: flex;
+    margin-top: 30px;
+    text-align: left;
+    flex-direction: row;
+}
+
+.f1 {
+    flex: 1;
+}
+
+.sub-title {
+    color: #4a4a4a;
+}
+
+.pokemon-text {
+    text-align: left;
+    font-size: 30px;
+}
+
+.column {
+    margin-bottom: 25px;
+    flex-direction: column;
+    display: flex;
+}

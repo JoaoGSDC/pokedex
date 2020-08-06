@@ -11,7 +11,7 @@ function Card() {
                 <label className="poke-sub-title">Nº 025</label>
                 <label className="poke-title">Pikachu</label>
             </div>
-            <Link className="btn btn-card" to="/details">See more...</Link>
+            <Link className="btn btn-card" to="/details">Detalhes</Link>
         </div>
     );
 }
