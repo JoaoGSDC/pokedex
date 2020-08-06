@@ -1,0 +1,14 @@
+nav {
+    display: flex;
+    width: 100%;
+}
+
+.input-search {
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+
+.btn-search {
+    width: 100px;
+}

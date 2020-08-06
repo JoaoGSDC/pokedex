@@ -1,0 +1,60 @@
+.card-header {
+    background-color: #dc0a2d;
+    margin-top: -15px;
+    margin-left: -15px;
+    margin-right: -15px;
+    height: 75px;
+    border-radius: 3px;
+    display: flex;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    background-color: #dedede;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.h80 {
+    height: 80vh;
+}
+
+.spheric-main,
+.spheric-red,
+.spheric-yellow,
+.spheric-green {
+    position: absolute;
+    padding: 20px;
+    background: linear-gradient(90deg, #28aafd, #196a9e);
+    border-radius: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.spheric-main {
+    background: linear-gradient(90deg, #28aafd, #196a9e);
+}
+
+.spheric-red,
+.spheric-yellow,
+.spheric-green {
+    position: absolute;
+    padding: 10px;
+    border-radius: 100px;
+    margin-top: 25px;
+}
+
+.spheric-red {
+    background: linear-gradient(90deg, #f1758a, #6b0415);
+    margin-left: 75px;
+}
+
+.spheric-yellow {
+    background: linear-gradient(90deg, #fbeb89, #71530e);
+    margin-left: 110px;
+}
+
+.spheric-green {
+    background: linear-gradient(90deg, #6aa372, #314228);
+    margin-left: 145px;
+}

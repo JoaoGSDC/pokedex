@@ -1,0 +1,87 @@
+:root {
+    --color-background: #dc0a2d;
+    --color-background-gradient: #bc0927;
+    --color-card: #232323;
+    font-size: 60%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100vh;
+}
+
+body {
+    
+    background: linear-gradient(90deg, #dc0a2d, #9f0821);
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body,
+input,
+button,
+.btn,
+textarea {
+    font: 500 1.6rem Roboto;
+}
+
+.container {
+    padding-top: 50px;
+    text-align: center;
+    height: 100%;
+    width: 90vw;
+}
+
+.card {
+    border-radius: 5px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.title {
+    margin: auto;
+    font-size: 50px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+input, button, .btn {
+    height: 50px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+input {
+    border: 1px solid #6e6e6f;
+    background-color: #dedede;
+}
+
+.btn {
+    cursor: pointer;
+    color: #dedede;
+    border: 1px solid #020709;
+    background-color: var(--color-card);
+    padding: 5px 20px 10px 20px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+button:hover, .btn:hover {
+    background-color: #141414;
+}
+
+@media (min-width: 700px) {
+    :root {
+        font-size: 62.5%;
+    }
+}
